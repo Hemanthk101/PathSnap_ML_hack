@@ -1,0 +1,7 @@
+-r requirements.txt
+optuna==5.1.0
+matplotlib==3.11.2
+folium==1.0.0
+pytest==9.2.0
+playwright==1.65.2
+reportlab>=4.0,<6
