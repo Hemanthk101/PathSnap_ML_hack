@@ -1,0 +1,34 @@
+{
+  "model": "Random forest (tuned)",
+  "artifact": "tuned.joblib",
+  "features": [
+    "distance_m",
+    "heading_difference_deg",
+    "speed_mps",
+    "delta_t_s",
+    "road_length_m",
+    "projection_fraction",
+    "acceleration_mps2",
+    "gps_previous_step_m",
+    "gps_gap",
+    "gps_jump",
+    "gps_stationary",
+    "is_fallback",
+    "distance_over_segment_length"
+  ],
+  "training_family": "forest",
+  "preprocessing": {
+    "schema_version": "1.0",
+    "radius_m": 50.0,
+    "top_k": 8,
+    "fallback": true,
+    "fallback_max_m": 300.0,
+    "gps_gap_s": 5.0,
+    "gps_jump_mps": 65.0,
+    "stationary_mps": 0.5,
+    "weak_label_distance_m": 12.0,
+    "weak_label_margin_m": 8.0,
+    "weak_label_heading_deg": 55.0,
+    "weak_label_max_route_regression": 0
+  }
+}
