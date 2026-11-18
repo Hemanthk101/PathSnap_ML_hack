@@ -1,0 +1,11 @@
+numpy==2.4.6
+pandas==3.1.1
+shapely==2.2.0
+pyproj==3.7.2
+scipy==1.17.1
+scikit-learn==1.6.1
+xgboost==2.1.4
+joblib==1.6.0
+threadpoolctl==3.8.0
+fastapi==0.163.2
+uvicorn==0.54.0

@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+data/
+.env
+*.log
+results/screenshots/
+results/maps/
+results/plots/
+docs/PathSnap-Technical-Report.pdf
